@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<gui>
+	<box>
+		<box margin="50" max-width="400">
+			<text font="Heading1">
+				Hello world!
+			</text>
+		</box>
+	</box>
+</gui>

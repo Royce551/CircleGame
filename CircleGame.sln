@@ -5,6 +5,20 @@ VisualStudioVersion = 16.0.30406.217
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CircleGame", "CircleGame\CircleGame.csproj", "{07C097F4-E515-4EC4-B052-44D9AABFCCCA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "third-party", "third-party", "{3581AFB9-CCF4-4994-BE89-83448F0A6BC0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pandemic-framework", "pandemic-framework", "{EF82036B-88B0-4412-88B5-5B39C5D8718E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12C17E8A-F4F6-4BC6-9418-FDC34484E349}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlkalineThunder.Pandemic", "third-party\pandemic-framework\src\AlkalineThunder.Pandemic\AlkalineThunder.Pandemic.csproj", "{45F4FF0C-4A95-4631-B6D4-E13C835FF486}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "third-party", "third-party", "{F4222B86-FFC8-4754-BCB8-60B930224194}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SpriteFontPlus", "SpriteFontPlus", "{1CDF16A7-E2E4-43C1-AFA9-11470FFD582F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpriteFontPlus.MonoGame", "third-party\pandemic-framework\third-party\SpriteFontPlus\src\SpriteFontPlus.MonoGame.csproj", "{65ADC014-2550-4E4D-AC40-D73C335CE448}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +29,27 @@ Global
 		{07C097F4-E515-4EC4-B052-44D9AABFCCCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07C097F4-E515-4EC4-B052-44D9AABFCCCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07C097F4-E515-4EC4-B052-44D9AABFCCCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F4FF0C-4A95-4631-B6D4-E13C835FF486}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F4FF0C-4A95-4631-B6D4-E13C835FF486}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F4FF0C-4A95-4631-B6D4-E13C835FF486}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F4FF0C-4A95-4631-B6D4-E13C835FF486}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65ADC014-2550-4E4D-AC40-D73C335CE448}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65ADC014-2550-4E4D-AC40-D73C335CE448}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65ADC014-2550-4E4D-AC40-D73C335CE448}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65ADC014-2550-4E4D-AC40-D73C335CE448}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {D001542E-6D85-496B-8098-3ABEC60E7998}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF82036B-88B0-4412-88B5-5B39C5D8718E} = {3581AFB9-CCF4-4994-BE89-83448F0A6BC0}
+		{12C17E8A-F4F6-4BC6-9418-FDC34484E349} = {EF82036B-88B0-4412-88B5-5B39C5D8718E}
+		{45F4FF0C-4A95-4631-B6D4-E13C835FF486} = {12C17E8A-F4F6-4BC6-9418-FDC34484E349}
+		{F4222B86-FFC8-4754-BCB8-60B930224194} = {EF82036B-88B0-4412-88B5-5B39C5D8718E}
+		{1CDF16A7-E2E4-43C1-AFA9-11470FFD582F} = {F4222B86-FFC8-4754-BCB8-60B930224194}
+		{65ADC014-2550-4E4D-AC40-D73C335CE448} = {1CDF16A7-E2E4-43C1-AFA9-11470FFD582F}
 	EndGlobalSection
 EndGlobal

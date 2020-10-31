@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AlkalineThunder.Pandemic;
+using AlkalineThunder.Pandemic.Settings;
 
 namespace CircleGame
 {
@@ -6,7 +7,7 @@ namespace CircleGame
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            GameUtils.Run(typeof(Program).Assembly);
         }
     }
 }
